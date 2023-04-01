@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: linear-gradient(200deg,#72afdB,#96fbc4);
+
+}
+.login-box{
+    position: relative;
+    margin:auto;
+    width: 320px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-box input{
+    height: 40px;
+    border-radius: 3px;
+    text-indent: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.input-box input:focus{
+    outline: 1px solid lightseagreen;
+}
+.input-box button{
+    border: none;
+    height: 30px;
+    background-color: lightsalmon;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.panda{
+    width: 400px;
+    height:400px;
+    object-fit: cover;
+
+    background: url("panda.png") no-repeat;
+    position: absolute;
+
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
